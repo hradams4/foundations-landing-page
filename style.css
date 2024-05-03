@@ -3,18 +3,20 @@ body {
 }
 
 a {
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     color: #E5E7EB;
   }
 
-  img {
-    width: 200px;
-  }
+img {
+    width: 150px;
+    height: 150px;
+ }
 
 button {
     background: #3882F6;
     color: #E5E7EB;
+    border-radius: 15%;
 }
 
 .header {
@@ -40,6 +42,12 @@ button {
     align-items: center;
   }
 
+  .top-subtext{
+    color: #F9FAF8;
+    font-size: 16px;
+    opacity: 85%;
+  }
+
   #circle {
     width: 300px;
     height: 300px;
@@ -52,6 +60,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .image #middle-image {
+    border-radius: 10%;
+    border: 2px solid #3882F6;
+    
   }
 
   .info-images {
