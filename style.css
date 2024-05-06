@@ -1,5 +1,6 @@
 body {
     font-family: roboto, sans-serif;
+    background-color: #1F2937;
 }
 
 a {
@@ -61,6 +62,7 @@ button {
   .middle {
     height: auto;
     color: #1F2937;
+    background-color: #F9FAF8;
     font-weight: 900;
     display: flex;
     flex-direction: column;
@@ -69,7 +71,7 @@ button {
   }
 
   .image #middle-image {
-    border-radius: 10%;
+    border-radius: 7%;
     border: 2px solid #3882F6;
     
   }
@@ -93,11 +95,20 @@ button {
     flex-direction: column;
   }
 
+  #author {
+    display: flex;
+    justify-content: right;
+    text-align: right; 
+    font-size: medium; 
+    font-weight: 900;
+  }
+
   .action {
     background: #3882F6;
     color: #E5E7EB;
     display: flex;
-    
+    border-radius: 5px;
+
   }
 
   .bottom {
