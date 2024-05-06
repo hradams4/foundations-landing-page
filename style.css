@@ -7,6 +7,8 @@ a {
     font-size: 14px;
     text-decoration: none;
     color: #E5E7EB;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
 img {
@@ -17,7 +19,11 @@ img {
 button {
     background: #3882F6;
     color: #E5E7EB;
-    border-radius: 15%;
+    font-weight: bold;
+    border-radius: 10%;
+    width: 80px;
+    height: 25px;
+    margin-top: 15px;    
 }
 
 .header {
@@ -28,8 +34,10 @@ button {
     font-size: 24px;
     font-weight: 900;
     display: flex;
-    /* align-items: center;  */
-    justify-content: space-between;   
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 10%;
+    padding-right: 10%;   
   }
 
   .top {
@@ -38,7 +46,7 @@ button {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    margin: 60px 60px;
+    padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,6 +122,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10%;
   }
 
   #author {
@@ -124,21 +133,39 @@ button {
     font-weight: 900;
   }
 
-  .action {
-    background: #3882F6;
-    color: #E5E7EB;
-    display: flex;
-    border-radius: 5px;
-
-  }
-
   .bottom {
+    background: #F9FAF8;
     height: auto;
-    color: darkmagenta;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;
   }
+
+  .action {
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    display: flex;
+    border-radius: 5px;
+
+
+  }
+
+  .call-content {
+    font-weight: 100;
+  }
+
+  /* .bottom-signup {
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 10%;
+    border-color: #F9FAF8;
+    width: 80px;
+    height: 25px;
+    margin-top: 15px;    
+} */
 
   .footer {
     height: 72px;
