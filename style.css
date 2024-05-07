@@ -30,14 +30,11 @@ button {
     height: auto;
     background: #1F2937;
     color: #E5E7EB;
-    padding: 0 16px;
+    padding: 1vh 5vh;
     font-size: 24px;
     font-weight: 900;
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
-    padding-left: 10%;
-    padding-right: 10%;   
   }
 
   .top {
@@ -46,15 +43,16 @@ button {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    padding: 10%;
+    padding: 10vh 5vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 
   .top-left {
     display: flex;
     flex-direction: column;
+    width: 500px;
   }
 
   .top-subtext {
