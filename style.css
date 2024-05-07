@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: roboto, sans-serif;
     background-color: #1F2937;
@@ -65,6 +67,7 @@ button {
   #circle {
     width: 300px;
     height: auto;
+    padding: 8px;
   }
 
   .middle {
@@ -116,9 +119,6 @@ button {
     height: auto;
     background: #E5E7EB;
     color: #1F2937;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 100;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,15 +127,18 @@ button {
   }
 
   .quote {
+    font-size: 36px;
+    font-style: italic;
     max-width: 800px;
   }
 
   #author {
     display: flex;
-    justify-self: right; 
+    align-self: flex-end; 
     font-size: 24px; 
     font-weight: 900;
-    max-width: 800px;
+    max-width: 400px;
+    padding-right: 30%;
   }
 
   .bottom {
